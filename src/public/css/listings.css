@@ -1,0 +1,142 @@
+/* メイン */
+.main {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* フォーム */
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* カテゴリータグ */
+.form__categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form__tag {
+    background: #fff;
+    border: 1px solid red;
+    color: red;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+}
+
+.form__tag input[type="checkbox"] {
+    display: none;
+}
+
+.form__tag:has(input[type="checkbox"]:checked) {
+    background: #f66;
+    color: white;
+    border-color: #f66;
+}
+
+/* 画像アップロード */
+.form__image-upload-wrap {
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.form__image-label {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form__image-input {
+    display: none;
+}
+
+.form__image-preview {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ボタン */
+.form__btn-wrap {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form__btn {
+    background: #f66;
+    color: white;
+    font-weight: bold;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background: #e55;
+}
+
+/* エラーメッセージ */
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* 価格関連 */
+.form__price-wrap {
+    position: relative;
+}
+
+.form__yen {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #333;
+}
+
+.form__input--price {
+    padding-left: 24px;
+}

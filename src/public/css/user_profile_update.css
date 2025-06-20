@@ -1,0 +1,100 @@
+/* メイン */
+.main {
+    padding: 40px;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* プロフィール画像とボタン横並び */
+.form__image-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.form__image-preview-wrap {
+    flex-shrink: 0;
+}
+
+.form__image-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ccc;
+    display: block;
+}
+
+.form__image-select-wrap {
+    flex-grow: 1;
+}
+
+.form__image-input {
+    display: none;
+}
+
+.form__image-label {
+    background: #ffffff;
+    color: #e00000;
+    padding: 6px 14px;
+    border: 1.5px solid #e00000;
+    font-size: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.form__image-label:hover {
+    background: #fff5f5;
+}
+
+/* 入力欄 */
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* ボタン */
+.form__btn-wrap {
+    text-align: center;
+}
+
+.form__btn {
+    padding: 10px 30px;
+    background: #f46464;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

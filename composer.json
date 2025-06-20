@@ -1,0 +1,9 @@
+{
+    "require": {
+        "laravel/fortify": "^1.25",
+        "stripe/stripe-php": "^17.3"
+    },
+    "require-dev": {
+        "laravel-lang/lang": "^15.22"
+    }
+}
