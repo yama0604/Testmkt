@@ -70,7 +70,7 @@ MAIL_FROM_NAME="COACHTECH"
 
 ## ER 図
 
-![Image](https://github.com/user-attachments/assets/9dbd05a9-2cd0-4c02-849a-b322ee34325d)
+![image](https://github.com/user-attachments/assets/ec227a22-3fe2-40e2-83b5-15936e8b1abc)
 
 ## URL
 
