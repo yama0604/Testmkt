@@ -8,9 +8,8 @@
 
 1. DockerDesktop アプリを立ち上げ、Git よりクローンで作成されたフォルダ上で下記コマンドを実行してください
 
-```bash
-docker-compose up -d --build
-```
+
+- docker-compose up -d --build
 
 2. コンテナを起動させ、下記コマンドから.env を作成してください
 
@@ -93,6 +92,6 @@ php artisan cache:clear
 
 - ログイン: http://localhost/login
 - 会員登録: http://localhost/register
-- mailhog（メール認証）: http://localhost:8025
-- Stripe（）: https://dashboard.stripe.com/test/apikeys
+- mailhog: http://localhost:8025
+- Stripe: https://dashboard.stripe.com/test/apikeys
 - Stripe にログイン後、開発者メニューから pk と sk の２種類を取得し、.env の最下部にそのまま追記する
